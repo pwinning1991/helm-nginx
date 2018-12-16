@@ -4,8 +4,8 @@ metadata:
   name: nginx
   annotations:
     http.port: "443"
-  spec:
-    backend:
-      serviceName: nginx
-      servicePort: 80
+spec:
+  backend:
+    serviceName: nginx
+    servicePort: 80
 
